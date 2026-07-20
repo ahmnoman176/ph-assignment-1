@@ -115,3 +115,56 @@ a{
     font-size: 18px;
     line-height: 1.8;
 }
+
+
+
+
+
+/* Speaker CSS */
+.speaker-root{
+    margin: 100px auto;
+}
+
+.speaker-root h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.speaker-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.speaker-content div{
+    background-color: rgb(245,245,245);
+    border: 1px solid rgb(234,230,230);
+    border-radius: 12px;
+    overflow: hidden;      /* Makes image follow card radius */
+}
+
+.speaker-content img{
+    width: 100%;
+    display: block;
+}
+
+.speaker-profession-text{
+    color: rgb(69,149,181);
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 20px 20px 8px;
+}
+
+.speaker-content h4{
+    font-size: 24px;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.speaker-content .small-gray-text{
+    padding: 10px 20px 20px;
+    line-height: 1.6;
+}
